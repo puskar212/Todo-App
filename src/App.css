@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hard {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.Add{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: chartreuse;
+}
+
+.allUser {
+  height: 40px;
+  border-radius: 100px;
+  box-shadow: 10px 5px 20px purple;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.allUser span {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  border-radius: 100px;
+  box-shadow: 10px 5px 20px lightslategray;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+
+.task span {
+  padding: 8px;
+  flex: 1;
+}
+.successful {
+  color: lightgray;
+  text-decoration: line-through;
+}
+
+.radio {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: red;
+  display: inline-block;
+}
+
+.done {
+  background-color: limegreen;
+}
